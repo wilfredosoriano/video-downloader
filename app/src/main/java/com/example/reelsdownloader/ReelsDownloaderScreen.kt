@@ -138,7 +138,7 @@ fun shareApp(context: Context) {
         action = Intent.ACTION_SEND
         putExtra(
             Intent.EXTRA_TEXT,
-            "Check out this app! Download here: https://github.com/wilfredosoriano/video-downloader/releases/latest/download/app-debug.apk"
+            "Check out this app! Download here: https://github.com/wilfredosoriano/video-downloader/releases"
         )
         type = "text/plain"
     }
