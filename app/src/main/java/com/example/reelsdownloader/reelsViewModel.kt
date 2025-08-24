@@ -46,7 +46,6 @@ class ReelsViewModel : ViewModel() {
 
                 Toast.makeText(context, "Downloading...", Toast.LENGTH_SHORT).show()
 
-                // Scan so it appears in gallery
                 val file = File(
                     Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),
                     fileName
